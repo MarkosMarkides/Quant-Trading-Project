@@ -1,0 +1,28 @@
+{
+    "granularity": "M1",
+    "pairs": {
+        "EUR_USD": {
+            "dollar_threshold": 360,
+            "risk": 2,
+            "reward": 4,
+            "probability": 0.6,
+            "predictors":
+                [
+                    ["volume", "mid_o", "mid_h", "mid_l", "mid_c", "bid_o", "bid_h",
+                    "bid_l", "bid_c", "ask_o", "ask_h", "ask_l", "ask_c", "spread", "hour",
+                    "day_of_week", "month", "minute", "BB_MA10", "BB_UP10", "BB_LW10",
+                    "BB_MA30", "BB_UP30", "BB_LW30", "BB_MA50", "BB_UP50", "BB_LW50",
+                    "ATR_7", "ATR_14", "ATR_40", "EMA20", "KeUp20_10", "KeLo20_10", "EMA50",
+                    "KeUp50_50", "KeLo50_50", "EMA200", "KeUp200_50", "KeLo200_50", "RSI_7",
+                    "RSI_14", "RSI_50", "MACD26_12", "SIGNAL26_12", "HIST26_12",
+                    "MACD52_24", "SIGNAL52_24", "HIST52_24", "direction", "body_size",
+                    "body_perc", "body_lower", "body_upper", "body_bottom_perc",
+                    "body_top_perc", "mid_point", "low_change", "high_change",
+                    "body_size_prev", "direction_prev",
+                    "direction_prev_2", "body_perc_prev", "body_perc_prev_2",
+                    "mid_point_prev_2"]
+                ],
+            "model": "ML_models/random_forest.pkl"
+        }
+    }
+}
