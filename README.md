@@ -44,7 +44,6 @@ Ensure you have an OANDA account (required for data collection).
 2. Create a Virtual Environment:
 	Create and activate a virtual environment to isolate the project dependencies.
 	
-		```bash
 	 	python3 -m venv .venv
 	 
 	On macOS/Linux:
